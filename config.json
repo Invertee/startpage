@@ -1,63 +1,121 @@
 {
+  "disable24Hour": true,
+  "disableDate": false,
+  "disableMessage": true,
+  "disableSearchBar": true,
+  "disableWeather": false,
+  "searchEngine": "DuckDuckGo",
+  "settingsIcon": true,
   "squares": [
-    { "name": "media",
-      "color": "red",
+    {
+      "color": "white",
       "links": [
-        { "name": "Spotify", "url": "https://open.spotify.com/" },
-        { "name": "YoutubeMusic", "url": "https://music.youtube.com/" },
-        { "name": "Netflix", "url": "https://netflix.com" },
-        { "name": "Youtube", "url": "https://youtube.com" }
-      ]
-    },
-    { "name": "work",
-      "color": "#26A69A",
-      "links": [
-        { "name": "Github", "url": "https://github.com" },
-        { "name": "Heroku", "url": "http://heroku.com/" },
-        { "name": "localhost", "url": "http://localhost:8000/" }
-      ]
-    },
-    { "name": "social",
-      "links": [
-        { "name": "Reddit", "url": "https://reddit.com" },
-        { "name": "Unixporn Love", "url": "https://deepjyoti30.github.io/unixporn-love/" },
-        { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
-        { "name": "r/mk", "url": "https://www.reddit.com/r/MechanicalKeyboards/" }
-      ]
+        {
+          "name": "Outlook",
+          "url": "https://outlook.office.com/"
+        },
+        {
+          "name": "M365 Portal",
+          "url": "https://portal.office.com/"
+        },
+        {
+          "name": "Azure Portal",
+          "url": "https://portal.azure.com"
+        },
+        {
+          "name": "Microsoft Partner Centre",
+          "url": "https://partner.microsoft.com/en-us/dashboard/home"
+        }
+      ],
+      "name": "/microsoft"
     },
     {
-      "name": "Others",
+      "color": "white",
       "links": [
-        {"name": "Material Colors", "url": "http://materialuicolors.co/"},
-        {"name": "Gmail", "url": "http://gmail.com/"},
-        {"name": "neo4j Local", "url": "http://localhost:7474/"},
-        {"name": "rarbg", "url": "http://rarbg.to"}
-      ]
+        {
+          "name": "Autotask PSA",
+          "url": "https://www.autotask.net/"
+        },
+        {
+          "name": "Datto RMM",
+          "url": "https://auth.datto.com/login"
+        },
+        {
+          "name": "Meraki Dashboard",
+          "url": "https://account.meraki.com/secure/login/dashboard_login"
+        },
+        {
+          "name": "Github",
+          "url": "https://github.com/"
+        },
+        {
+          "name": "DigitalOcean",
+          "url": "https://cloud.digitalocean.com/"
+        }
+      ],
+      "name": "/work"
+    },
+    {
+      "color": "white",
+      "links": [
+        {
+          "name": "News.YCombinator",
+          "url": "https://news.ycombinator.com"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://theguardian.com/"
+        },
+        {
+          "name": "Rightmove",
+          "url": "https://www.rightmove.co.uk/"
+        },
+        {
+          "name": "YouTube",
+          "url": "https://youtube.com/"
+        },
+        {
+          "name": "Whatsapp",
+          "url": "https://web.whatsapp.com"
+        }
+      ],
+      "name": "/timewasting"
+    },
+    {
+      "color": "white",
+      "links": [
+        {
+          "name": "AskReddit",
+          "url": "https://reddit.com/r/askreddit"
+        },
+        {
+          "name": "UnitedKingdom",
+          "url": "https://reddit.com/r/UnitedKingdom"
+        },
+        {
+          "name": "WorldNews",
+          "url": "https://reddit.com/r/WorldNews"
+        }
+      ],
+      "name": "/reddit"
     }
   ],
-  "searchEngine":"DuckDuckGo",
-  "user": "Deepjyoti",
-  "disableMessage": false,
-  "disableDate": false,
-  "disableSearchBar": false,
-  "disable24Hour": false,
-  "disableWeather": true,
-  "timeZone": "America/Los_Angeles",
-  "weatherConf": {
-    "location": "Pune India",
-    "unit": "cel"
-  },
-  "settingsIcon": false,
   "style": {
-    "backgroundColor": "#212121",
-    "messageColor": "#fff",
-    "dateColor": "#d9d9d9",
+    "autocompleteHighlightBackgroundColor": "#3B3B3B",
+    "backgroundColor": "#d20dac",
+    "dateColor": "#fff",
     "lineColor": "#fff",
-    "weatherColor": "#d9d9d9",
-    "searchColor": "#fff",
+    "messageColor": "#fff",
     "searchBackgroundColor": "#2e2e2e",
-    "squareColor": "#9e9e9e",
-    "squareBackgroundColor": "#2e2e2e",
-    "autocompleteHighlightBackgroundColor": "#3B3B3B"
+    "searchColor": "#fff",
+    "squareBackgroundColor": "rgba(88, 87, 87, 0.356)",
+    "squareColor": "#rgba(88, 87, 87, 0.2",
+    "weatherColor": "#fff"
+  },
+  "timeZone": "Europe/London",
+  "user": "Sam",
+  "weatherConf": {
+    "location": "London",
+    "unit": "cel"
   }
 }

@@ -185,7 +185,7 @@ function updateWeather(weatherConfig) {
 
             temp = !unit.includes("cel") ?
                 getFahrenheit(temp) + "&deg;F" : temp + "&deg;C"
-            weatherText = temp + ", " + indexUppercase(weatherType)
+            weatherText = temp + " - " + indexUppercase(weatherType)
             document.getElementById(weatherId).innerHTML = weatherText
         })
 }
