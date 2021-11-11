@@ -2,7 +2,7 @@
 <h1>Minimal Startpage</h1>
 </div>
 
-![](/.github/startpage.png)
+![](https://github.com/Invertee/startpage/blob/master/.github/startpage.PNG)
 
 Just a customised version of the beautifully simple start page by Deepjyoti30 [here.](https://github.com/deepjyoti30/startpage)
 
